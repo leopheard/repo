@@ -1,1 +1,1 @@
-TESTING this is the docs folder
+leopheard's Kodi addon repository
