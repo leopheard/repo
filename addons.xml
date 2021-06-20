@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon
+        id="repository.leopheard"
+        name="leopheard Add-ons"
+        version="1.0.0"
+        provider-name="leopheard">
+    <requires>
+        <import addon="xbmc.addon"
+                version="16.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository"
+               name="leopheard's Add-on Repository">
+        <dir minversion="18.9.0">
+            <info compressed="true">https://raw.github.com/leopheard/repository.leopheard/matrix/addons.xml</info>
+            <checksum>https://raw.github.com/leopheard/repository.leopheard/matrix/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/leopheard/repository.leopheard/matrix/download</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="17.9.0">
+            <info compressed="true">https://raw.github.com/leopheard/repository.leopheard/jarvis/addons.xml</info>
+            <checksum>https://raw.github.com/leopheard/repository.leopheard/jarvis/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/leopheard/repository.leopheard/jarvis/download</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir minversion="16.0.0">
+            <info compressed="true">https://raw.github.com/leopheard/repository.leopheard/jarvis/addons.xml</info>
+            <checksum>https://raw.github.com/leopheard/repository.leopheard/jarvis/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/leopheard/repository.leopheard/jarvis/download</datadir>
+            <hashes>false</hashes>
+        </dir>
+
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Install Add-ons from leopheard's repository</summary>
+        <summary lang="us">Install Add-ons from leopheard's repository</summary>
+        <description lang="en">Download and install add-ons from the unofficial leopheard's addon repository.</description>
+        <description lang="us">Download and install add-ons from the unofficial leopheard's addon repository.</description>
+        <disclaimer lang="en">A series of podcasts and mostly independent news sources
+        </disclaimer>
+        <platform>all</platform>
+        <nofanart>false</nofanart>
+        <news>v1.0.0:
+-use https
+
+v1.0.0:
+-initial
+        </news>
+    </extension>
+</addon>
+
+<addon id="plugin.audio.criminalpodcast"
+       version="1.1.3"
+       name="Criminal"
+       provider-name="leopheard">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="1.1.0"/>
+        <import addon="script.module.xbmcswift2" version="2.4.0"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+        <import addon="script.module.kodi-six" version="0.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Criminal Podcast addon</summary>
+        <summary lang="en_US">Criminal Podcast addon</summary>
+    <description lang="en_GB">Criminal is a podcast about crime. Not so much the "if it bleeds, it leads," kind of crime. Something a little more complex. Stories of people who've done wrong, been wronged, and/or gotten caught somewhere in the middle. We are a proud member of Radiotopia, from PRX, a curated network of extraordinary, story-driven shows. Learn more at radiotopia.fm</description>
+        <language>en</language>
+        <platform>all</platform>
+        <license>WTFPL</license>
+        <forum></forum>
+        <website>https://www.thisiscriminal.com</website>
+        <source>https://github.com/leopheard/plugin.audio.criminalpodcast</source>
+        <assets>
+            <icon>resources/leopheard_icon.jpg</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+        <news>
+        </news>
+    </extension>
+</addon>
+</addons>
