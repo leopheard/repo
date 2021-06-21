@@ -14,19 +14,19 @@
         <dir minversion="18.9.0">
             <info compressed="true">https://raw.github.com/leopheard/repository.leopheard/matrix/addons.xml</info>
             <checksum>https://raw.github.com/leopheard/repository.leopheard/matrix/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/leopheard/repository.leopheard/matrix/download</datadir>
+            <datadir zip="true">https://raw.github.com/leopheard/repository.leopheard/matrix/files</datadir>
             <hashes>false</hashes>
         </dir>
         <dir minversion="17.9.0">
             <info compressed="true">https://raw.github.com/leopheard/repository.leopheard/jarvis/addons.xml</info>
             <checksum>https://raw.github.com/leopheard/repository.leopheard/jarvis/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/leopheard/repository.leopheard/jarvis/download</datadir>
+            <datadir zip="true">https://raw.github.com/leopheard/repository.leopheard/jarvis/files</datadir>
             <hashes>false</hashes>
         </dir>
         <dir minversion="16.0.0">
             <info compressed="true">https://raw.github.com/leopheard/repository.leopheard/jarvis/addons.xml</info>
             <checksum>https://raw.github.com/leopheard/repository.leopheard/jarvis/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/leopheard/repository.leopheard/jarvis/download</datadir>
+            <datadir zip="true">https://raw.github.com/leopheard/repository.leopheard/jarvis/files</datadir>
             <hashes>false</hashes>
         </dir>
 
@@ -72,7 +72,7 @@ v1.0.0:
         <license>WTFPL</license>
         <forum></forum>
         <website>https://www.thisiscriminal.com</website>
-        <source>https://github.com/leopheard/plugin.audio.criminalpodcast</source>
+        <source>https://github.com/leopheard/criminalpodcast-kodi18.git</source>
         <assets>
             <icon>resources/leopheard_icon.jpg</icon>
             <fanart>resources/fanart.jpg</fanart>
